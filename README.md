@@ -1,6 +1,6 @@
 # echo-rest
 docker run --name fitnes -e POSTGRES_PASSWORD=qwerty -p 5432:5432 -d postgres
-
+```
 CREATE DATABASE fitnes;
 
 CREATE TABLE users (
@@ -19,3 +19,4 @@ CREATE TABLE measurements (
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id)
 );
+```
