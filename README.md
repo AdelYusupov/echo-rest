@@ -1,5 +1,5 @@
 # echo-rest
-docker run --name fitnes -e POSTGRES_PASSWORD=qwerty -p 5432:5432 -d postgres
+docker run --name fitnes -e POSTGRES_PASSWORD=yourpassword -p 5432:5432 -d postgres
 ```
 CREATE DATABASE fitnes;
 
